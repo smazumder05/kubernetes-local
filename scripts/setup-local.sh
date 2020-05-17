@@ -1,3 +1,12 @@
+#!/usr/bin/env bash
+
+# Bash Header 
+
+set -o errexit
+set -o pipefail
+set -o nounset
+set -o xtrace
+
 echo "Setting up the dev enviornment.."
 	if test ! $(which brew); then
 		echo "Installing homebrew..."
